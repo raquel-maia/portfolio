@@ -114,7 +114,8 @@ body {
 
 .presentation__image{
     width: 100%;
-    border: 5px solid #22D4FD;
+    border: 5px solid var(--cor-terciaria);
+    border-radius: 50%;
 } 
 /* rodapé */
 
