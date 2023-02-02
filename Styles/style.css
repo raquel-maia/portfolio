@@ -15,10 +15,10 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body {
-    /* height: 100vh; */
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -35,7 +35,7 @@ body {
 }
 .header__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -44,6 +44,7 @@ body {
 .presentation{
     padding: 5% 15%;
     display: flex;
+    gap: 82px;
     align-items: center;
     justify-content: space-between;
 }
@@ -51,14 +52,14 @@ body {
 
 
 .presentation__content {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .presentation__content__title{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -67,7 +68,7 @@ body {
 }
 
 .presentation__content__text{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 
 }
@@ -83,7 +84,7 @@ body {
 .presentation__links__subtitle{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .presentation__links__link {
     /* background-color: #22D4FD; */
@@ -91,10 +92,10 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -106,10 +107,10 @@ body {
     background-color: var(--cor-hover);
 }
 /*infos da imagem*/
-/* .presentation__image{
-    width: 615px;
-    height: 500px;
-} */
+
+.presentation__image{
+    width: 50%;
+} 
 
 /* rodapé */
 
@@ -119,6 +120,25 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width:1200px) {
+
+    .header {
+        padding: 10%;
+    }
+    .header__menu{
+    justify-content: center;
+}
+    .presentation{
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .presentation__content {
+        width: auto;
+    }
 }
