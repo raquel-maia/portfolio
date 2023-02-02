@@ -109,7 +109,7 @@ body {
 /*infos da imagem*/
 
 .presentation__content__image{
-    width: 50%;
+    width: auto;
 } 
 
 .presentation__image{
