@@ -109,7 +109,7 @@ body {
 /*infos da imagem*/
 
 .presentation__image{
-    width: 50%;
+    width: 100%;
 } 
 
 /* rodapé */
@@ -141,4 +141,8 @@ body {
     .presentation__content {
         width: auto;
     }
+}
+
+.footer{
+    padding: 0.5%;
 }
