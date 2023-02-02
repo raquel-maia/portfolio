@@ -10,9 +10,7 @@
 
 * Flex-box
 
-## Feito por:
-
-### Raquel Maia
+## Acesse meu Linkedin:
 
 ### Linkedin: https://www.linkedin.com/in/raquel-maia-860/
 
