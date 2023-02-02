@@ -114,6 +114,7 @@ body {
 
 .presentation__image{
     width: 100%;
+    border: 5px solid #22D4FD;
 } 
 /* rodapé */
 
