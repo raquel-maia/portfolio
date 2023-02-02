@@ -108,14 +108,17 @@ body {
 }
 /*infos da imagem*/
 
+.presentation__content__image{
+    width: 50%;
+} 
+
 .presentation__image{
     width: 100%;
 } 
-
 /* rodapé */
 
 .footer{
-    padding: 24px;
+    padding: 20px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
@@ -143,6 +146,3 @@ body {
     }
 }
 
-.footer{
-    padding: 0.5%;
-}
