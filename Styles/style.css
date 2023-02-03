@@ -12,6 +12,7 @@
 }
 
 /*infos gerais*/
+
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@ body {
 
 .header__menu{
     display: flex;
-    gap: 80px;
+    gap: 70px;
 }
 .header__menu__link{
     font-family: var(--fonte-secundaria);
@@ -48,6 +49,8 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+
 /*infos do conteúdo*/
 
 
@@ -72,6 +75,7 @@ body {
     font-family: var(--fonte-secundaria);
 
 }
+
 /*infos do botão*/
 .presentation__links{
     display: flex;
@@ -79,6 +83,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+    margin-bottom: 30%;
 }
 
 .presentation__links__subtitle{
@@ -92,12 +97,12 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 60%;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    padding: 21px 0px;
+    padding: 17px 0px;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -118,6 +123,7 @@ body {
     border: 5px solid var(--cor-terciaria);
     border-radius: 50%;
 } 
+
 /* rodapé */
 
 .footer{
@@ -128,9 +134,14 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
     font-weight: 400;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+
 }
 
-@media (max-width:1200px) {
+@media (max-width:1250px) {
 
     .header {
         padding: 8%;
