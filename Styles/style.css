@@ -118,7 +118,7 @@ body {
 } 
 
 .presentation__image{
-    width: 100%;
+    width: 90%;
     border: 5px solid var(--cor-terciaria);
     border-radius: 50%;
 } 
