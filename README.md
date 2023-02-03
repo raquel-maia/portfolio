@@ -4,7 +4,7 @@
 
 ##  Fiz algumas alterações
 
-![image](./assets/img-por-2.png)
+![image](./assets/img-port-2.png)
 
 ## Ferramentas utilizadas:
 
