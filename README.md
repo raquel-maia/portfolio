@@ -4,7 +4,7 @@
 
 ##  Fiz algumas alterações
 
-![imagem](./assets/img-port.png)
+![image](./assets/img-port-2.png)
 
 ## Ferramentas utilizadas:
 
@@ -19,6 +19,7 @@
 ### Raquel Maia
 
 ### Linkedin: https://www.linkedin.com/in/raquel-maia-860/
+### Link do projeto finalizado:  https://raquel-maia.github.io/portfolio/
 
 ```
 
